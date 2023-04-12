@@ -30,17 +30,6 @@
 
             Console.WriteLine($"potenza di {i2}^ {i3} = {i2.pow(i3)}");
             Console.WriteLine($"potenza di {i2}^ {i4} = {i2.pow(i4)}");
-           
-
-            string aaa = Convert.ToString(i1);
-            Console.WriteLine("stringa: "+aaa);
-            Console.WriteLine(aaa.Contains("-"));
-            Console.WriteLine(aaa.IndexOf("-"));
-
-           string x=  aaa.Remove(0,1);
-           // Console.WriteLine(aaa.Remove(0));
-            Console.WriteLine("post remove "+aaa);
-            Console.WriteLine("rest " + x);
         }
     }
 }

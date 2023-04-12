@@ -35,36 +35,19 @@ namespace csharp_calcolatrice
         //Valore assoluto di un numero intero
         public static int abs(this int n)
         {
-
-           string nString = Convert.ToString(n);
-            //  Console.WriteLine(nString);
-
-            if (nString.Contains("-"))
-            {
-                return Convert.ToInt16(nString.Remove(0,1));
-            }
+            if (n < 0)
+                return n * (-1);
             else
-            {
                 return n;
-            }           
         }
 
         //Valore assoluto di un numero double
         public static double abs(this double n)
         {
-
-            string nString = Convert.ToString(n);
-            //  Console.WriteLine(nString);
-
-            if (nString.Contains("-"))
-            {
-                return Convert.ToDouble(nString.Remove(0, 1));
-                
-            }
+            if (n<0)     
+                return n * (-1);  
             else
-            {
-                return n;
-            }
+                return n;   
         }
 
         //Minimo tra due numeri interi
@@ -84,6 +67,7 @@ namespace csharp_calcolatrice
         {
             n= (n == 0 )?  1 : n;
             if (esp == 0) return 1;
+
             double nPow = 0;
 
             if (esp > 0) 
