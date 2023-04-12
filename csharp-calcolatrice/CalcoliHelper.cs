@@ -32,6 +32,7 @@ namespace csharp_calcolatrice
         //Moltiplicazione di due numeri double
         public static double mult(double n1, double n2) => n1 * n2;
 
+        //Valore assoluto di un numero intero
         public static int abs(this int n)
         {
 
@@ -48,6 +49,7 @@ namespace csharp_calcolatrice
             }           
         }
 
+        //Valore assoluto di un numero double
         public static double abs(this double n)
         {
 
