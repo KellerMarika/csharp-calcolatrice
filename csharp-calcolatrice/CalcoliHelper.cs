@@ -32,14 +32,6 @@ namespace csharp_calcolatrice
         //Moltiplicazione di due numeri double
         public static double mult(double n1, double n2) => n1 * n2;
 
-
-        //Valore assoluto di un numero intero
-       // public static int abs(this int n)=>   Math.Abs(n);
-        //Valore assoluto di un numero double
-       // public static double abs(this double n) => Math.Abs(n);
-
-
-
         public static int abs(this int n)
         {
 
